@@ -1,0 +1,22 @@
+{
+  "name": "indian-pincode-details",
+  "version": "2.0.0",
+  "description": "Validate Indian PIN codes and fetch address details",
+  "keywords": [
+    "pincode",
+    "India",
+    "validator",
+    "address",
+    "postal"
+  ],
+  "license": "MIT",
+  "author": "Utkarsh Gupta",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "indian-pincode-details": "^1.0.1"
+  }
+}
