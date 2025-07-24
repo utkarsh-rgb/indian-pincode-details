@@ -1,4 +1,10 @@
-# indian-pincode-validator
+# indian-pincode-details
+
+
+![npm](https://img.shields.io/npm/v/indian-pincode-details)
+![license](https://img.shields.io/npm/l/indian-pincode-details)
+![issues](https://img.shields.io/github/issues/utkarsh-rgb/indian-pincode-details)
+
 
 A lightweight and efficient Node.js module to **validate Indian PIN codes** and **fetch detailed address information** using the official [Postal Pincode API](https://api.postalpincode.in/).  
 Perfect for applications requiring address validation or user input verification in Indian geography.
@@ -8,13 +14,13 @@ Perfect for applications requiring address validation or user input verification
 ## 📦 Installation
 
 ```bash
-npm install indian-pincode-validator
+npm install indian-pincode-details
 
 ```
 ## 🚀 Example
 
 ```bash
-const validatePIN = require('@gutkarsh89/indian-pincode-validator');
+const validatePIN = require('indian-pincode-details');
 
 (async () => {
   const result = await validatePIN('110001');
